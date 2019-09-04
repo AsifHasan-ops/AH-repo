@@ -5,7 +5,7 @@ language: bash
 before_cache:
   - brew cleanup
   
- cache:
+cache:
   - directories:
     - $HOME/Library/Caches/Homebrew
 
